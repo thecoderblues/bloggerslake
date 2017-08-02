@@ -1,0 +1,8 @@
+version: '2'
+
+services:
+  bloggerslake.web.services:
+    image: bloggerslake.web.services
+    build:
+      context: ./src/UserInterface/BloggersLake.Web.Services
+      dockerfile: Dockerfile

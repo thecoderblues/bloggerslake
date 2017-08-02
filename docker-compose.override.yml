@@ -1,0 +1,8 @@
+version: '2'
+
+services:
+  bloggerslake.web.services:
+    environment:
+      - ASPNETCORE_ENVIRONMENT=Development
+    ports:
+      - "80"
